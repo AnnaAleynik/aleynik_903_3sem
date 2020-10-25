@@ -1,0 +1,31 @@
+#box {
+    /* display: flex; */
+    height: 500px;
+    width: 500px;
+    border: 2px solid #1b1616;
+    position: relative;
+}
+
+#ball {
+    /* align-self: center; */
+    height: 50px;
+    width: 50px;
+    border: 2px solid #1b1616;
+    position: absolute;
+    left: 45%;
+    /* bottom: 400px; */
+    top: 40px;
+
+}
+
+#stop {
+    margin: 20px;
+    height: 50px;
+    width: 150px;
+    border: 2px solid #000000;
+    border-radius: 0%;
+}
+
+body {
+    display: flex;
+}

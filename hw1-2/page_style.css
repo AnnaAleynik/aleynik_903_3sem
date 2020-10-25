@@ -1,0 +1,253 @@
+a {
+    color:#294db8;
+    text-decoration: none;
+}
+
+h1 {
+    border-bottom: 2px solid #cccccc;
+    font-family: Georgia, serif;
+    font-size: 30px;
+    font-weight: 500;
+    padding-bottom: 5px;
+}
+
+h2 {
+    border-bottom: 2px solid #cccccc;
+    font-family: Georgia, serif;
+    font-size: 22px;
+    font-weight: 500;
+    padding-bottom: 5px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 5px;
+}
+
+header div {
+    display: flex;
+    justify-content: flex-end;
+    margin: 5px;
+}
+
+p {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+td {
+    text-align:left;
+    vertical-align:top;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    font-size: 10px;
+    justify-content: flex-end;
+    padding: 0 5px;
+}
+
+footer div {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    margin: 5px;
+}
+
+.footer-item {
+    margin-left: 5px;
+}
+
+.all {
+    display: flex;
+    font-family: Arial, sans-serif;
+}
+
+.in {
+    border: 0.5px solid #949eb1;
+}
+
+#contest {
+    display: inline-block;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    width: auto;
+}
+
+.context img {
+    margin-right: 10px;
+    border: 1px solid #949eb1;
+    float: left;
+    height: 330px;
+    padding: 2px;
+    width: 250px;
+}
+
+.context {
+    border: 0.5px solid #949eb1;
+    /* margin-bottom: 30px; */
+    padding: 20px;
+    height: auto;
+  /* width: 500px; */
+}
+
+.context section {
+    padding: 2px;
+}
+
+.desc-nav-item {
+    text-decoration: none;
+    color: #575757;
+    border-bottom: 1px groove #a4d1e7;
+}
+
+.list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.not-main {
+    background-color: #f8f9fa;
+    /* padding: 5px; */
+    
+}
+
+#other-page {
+    font-style: italic;
+    padding-left: 25px;
+}
+
+#system .header-item {
+    font-size: 10px;
+    margin-left: 5px;
+}
+
+
+#page-info .header-item {
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+#mat {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+}
+
+#navigation {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    height: 100%;
+    list-style-type: none;
+    padding-left: 3px;
+    padding-right: 3px;
+    width: 150px;
+}
+
+#navigation li {
+    margin-bottom: 5px;
+}
+
+#brief {
+    font-size: 12px;
+    float: right;
+    padding: 20px;
+    width: 280px;
+    border: 0.5px solid #949eb1;
+    margin-left: 10px;
+}
+
+#name {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+#var {
+  font-size: 10px; 
+  margin-bottom: 3px;
+  text-align: center;
+}
+
+#brief img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#toc {
+    padding-top: 0;
+    font-weight: bold;
+    padding-right: 5px;
+    margin-left: 5px;
+}
+
+#toc-items {
+    padding-right: 5px;
+}
+
+#toc-items li {
+    margin-bottom: 5px;
+}
+
+/* #Princess-Victoria {
+    border: 1px solid #949eb1;
+    float: left;
+    height: 330px;
+    padding: 2px;
+    width: 250px;
+} */
+
+#text {
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+@media (min-width: 800px) {
+    input {
+        display: none;
+    }
+}
+
+
+@media (max-width: 800px) {
+    #brief {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 12px;
+        float: none;
+        padding: 20px;
+        width: 280px;
+        border: 0.5px solid #949eb1;
+    }
+    
+}
+
+@media (max-width: 700px) {
+    
+    /* #navigation {
+        display: none;
+    } */
+
+    .spoiler input + #navigation {
+        display: none;
+    }
+    .spoiler input:checked + #navigation {
+        display: block;
+    }
+
+    header {
+        display: none;
+    }
+
+    /* .all {
+        display: flex;
+        flex-direction: column;
+        font-family: Arial, sans-serif;
+    } */
+}
