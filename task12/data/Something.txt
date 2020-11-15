@@ -1,0 +1,1228 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sun, 15 Nov 2020 21:12:49 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Keep-Alive: timeout=60
+Cache-Control: private, must-revalidate
+pragma: no-cache
+expires: -1
+Vary: Accept-Encoding
+
+1ebb
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/main.css" rel="stylesheet">
+    <script src="/js/jquery-2.1.1.min.js"></script>
+    <script src="/js/jquery.cookie.js"></script>
+    <script src="/bootstrap/js/bootstrap.min.js"></script>
+
+    <title>Studying</title>
+
+    <style>
+      li{
+        padding-right:5px;
+      }
+      li:hover{
+        background-color:#eee;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container theme-showcase" role="main">
+        <div role="tabpanel">
+
+    <!-- Nav tabs -->
+    <ul class="nav nav-tabs" role="tablist">
+              <li role="presentation" class="active"><a href="#lamp" aria-controls="lamp" role="tab" data-toggle="tab">LAMP</a></li>
+              <li role="presentation"><a href="#advphp" aria-controls="advphp" role="tab" data-toggle="tab">Adv.PHP</a></li>
+              <li role="presentation"><a href="#markup" aria-controls="markup" role="tab" data-toggle="tab">Вёрстка</a></li>
+              <li role="presentation"><a href="#algads" aria-controls="algads" role="tab" data-toggle="tab">Alg &amp; DS</a></li>
+              <li role="presentation"><a href="#java1" aria-controls="java1" role="tab" data-toggle="tab">Java 1</a></li>
+              <li role="presentation"><a href="#java2" aria-controls="java2" role="tab" data-toggle="tab">Java 2</a></li>
+              <li role="presentation"><a href="#java3" aria-controls="java3" role="tab" data-toggle="tab">Java 3</a></li>
+              <li role="presentation"><a href="#java4" aria-controls="java4" role="tab" data-toggle="tab">Java 4</a></li>
+                </ul>
+
+    <div class="tab-content">
+              <div role="tabpanel" class="tab-pane active" id="lamp">
+          <h1 class="pull-left">Веб-программирование LAMP</h1>
+          
+          <br /><br /><br />
+          <hr />
+
+                      <ul>
+                              <li>
+                  <a href="https://github.com/istamendil/kfu-programming-lamp" target="_blank">                    Репозиторий GitHub с примерами
+                    </a>                                                                      </li>
+                              <li>
+                  <a href="https://github.com/ist-programming/php-mvc-framework" target="_blank">                    Пример MVC-фреймворка
+                    </a>                                                                      </li>
+                          </ul>
+            <hr />
+          
+                      <h2>Презентации</h2>
+            <ul>
+                              <li>
+                  <a href="http://prezi.com/-jwqwx0d2xuw/theme-1-www/" target="_blank">                    WWW
+                    </a>                                                                      </li>
+                          </ul>
+            <hr />
+          
+          <h2>Литература, источники</h2>
+
+                      <h3>
+              Общая
+                          </h3>
+            <ol>
+                              <li>
+                  <a href="https://Habrahabr.ru" target="_blank">                    Habrahabr.ru
+                    </a>                                    
+                                  </li>
+                              <li>
+                  <a href="http://Stackoverflow.com/" target="_blank">                    Stackoverflow.com
+                    </a>                                    
+                                  </li>
+                              <li>
+                  <a href="http://stackexchange.com/sites" target="_blank">                    StackExchange communities
+                    </a>                                    
+                                  </li>
+                              <li>
+                                      Cheatsheets
+                                                        <br><span class="text-muted" style="display:inline-block">Шпаргалки по основной информации в технологиях.</span>
+                                  </li>
+                              <li>
+                  <a href="https://github.com/bayandin/awesome-awesomeness" target="_blank">                    Awesome lists
+                    </a>                                    <br><span class="text-muted" style="display:inline-block">Подборки ссылок на полезные ресурсы, скомпанованные по технологиям. Достаточно субъективные, но интересные.</span>
+                                  </li>
+                              <li>
+                  <a href="http://www.codecademy.com/" target="_blank">                    Code Academy
+                    </a>                                    <br><span class="text-muted" style="display:inline-block">Замечательные интерактивные курсы по HTML, CSS, Javascript, PHP и других веб-технологиям</span>
+                                  </li>
+                              <li>
+                  <a href="http://rubular.com/" target="_blank">                    Rubular
+                    </a>                                    <br><span class="text-muted" style="display:inline-block">Шпаргалка по регулярным выражениям и инструмент для их проверки.</span>
+                                  </li>
+                          </ol>
+                      <h3>
+              Тема I. WWW
+                          </h3>
+            <ol>
+                              <li>
+                  <a href="http://www.w3.org/TR/webarch/" target="_blank">                    Architecture of the World Wide Web, Volume One - 15 December 2004
+                    </a>                  <br>Tim Berners-Lee                  
+                                  </li>
+                              <li>
+                  <a href="http://www.microsoft.com/en-us/discover/1994/" target="_blank">                    Microsoft site from 1994
+                    </a>                                    
+                                  </li>
+                              <li>
+                  <a href="http://www.telegraph.co.uk/technology/6125914/How-20-popular-websites-looked-when-they-launched.html" target="_blank">                    How 20 popular websites looked when they launched
+                    </a>                                    
+                                  </li>
+                              <li>
+                  <a href="https://www.verisigninc.com/assets/domain-name-report-april2014.pdf" target="_blank">                    The domain name industry brief, Volume One, Issue 1 – April 2014
+                    </a>                                    
+                                  </li>
+                              <li>
+                  <a href="https://www.staticgen.com/" target="_blank">                    StaticGen: Top Open-Source Static Site Generators
+                    </a>                                    
+                                  </li>
+                          </ol>
+                      <h3>
+              Тема II. Дизайн, вёрстка
+                          </h3>
+            <ol>
+                              <li>
+                  <a href="https://www.w3.org/TR/html/" target="_blank">                    Спецификация HTML
+                    </a>                  <br>W3C                  
+                                  </li>
+                              <li>
+                  <a href="https://html.spec.whatwg.org/multipa
+2000
+ge/index.html" target="_blank">                    Living Standard
+                    </a>                                    <br><span class="text-muted" style="display:inline-block">Живой стандарт от  сообщества WHATWG</span>
+                                  </li>
+                              <li>
+                  <a href="https://www.w3.org/TR/CSS/" target="_blank">                    Спецификация CSS
+                    </a>                  <br>W3C                  
+                                  </li>
+                              <li>
+                  <a href="https://webref.ru/" target="_blank">                    WebReference.ru
+                    </a>                                    <br><span class="text-muted" style="display:inline-block">Отличные справочники HTML и CSS</span>
+                                  </li>
+                              <li>
+                  <a href="http://caniuse.com/" target="_blank">                    Can I use ... ?
+                    </a>                                    <br><span class="text-muted" style="display:inline-block">Сайт с информацией о поддержке браузерами различных технологий HTML, CSS, JS, SVG и смежных им.</span>
+                                  </li>
+                              <li>
+                  <a href="https://kuler.adobe.com/ru/create/color-wheel/" target="_blank">                    Adobe Kuler
+                    </a>                                    <br><span class="text-muted" style="display:inline-block">Цветовой круг для получения наборов цветов и набор существующих наборов.</span>
+                                  </li>
+                              <li>
+                                      CSS3 для веб-дизайнеров
+                                      <br>Дэн Сидерхолм                  <br><span class="text-muted" style="display:inline-block">Маленькая книга о новом в CSS3, о стандартах и об истории CSS.</span>
+                                  </li>
+                              <li>
+                  <a href="http://habrahabr.ru/post/42151/" target="_blank">                    CSS Font-Size: em vs. px vs. pt vs. percent
+                    </a>                                    <br><span class="text-muted" style="display:inline-block">Статья со сравнением типов указания размера шрифта в CSS.</span>
+                                  </li>
+                              <li>
+                  <a href="http://pattle.github.io/simpsons-in-css/" target="_blank">                    Симпсоны на чистом CSS
+                    </a>                                    <br><span class="text-muted" style="display:inline-block">Пример высшего пилотажа на CSS: описывание изображения Симпсонов без графики.</span>
+                                  </li>
+                              <li>
+                                      Эмоциональный веб-дизайн
+                                      <br>Аарон Уолтер                  <br><span class="text-muted" style="display:inline-block">Очень короткая (93 страницы) и дельная книжка по принципам дизайна.</span>
+                                  </li>
+                              <li>
+                  <a href="https://www.iconfinder.com/free_icons" target="_blank">                    IconFinder
+                    </a>                                    <br><span class="text-muted" style="display:inline-block">Один из самых крупнейших каталогов иконок. Ссылка выше ведёт на раздел с бесплатными иконками. При этом стоит обращать внимание на лицензию и не забывать ставить обратную ссылку на атвора/ страницу иконок!</span>
+                                  </li>
+                              <li>
+                  <a href="http://www.flaticon.com/" target="_blank">                    FlatIcon
+                    </a>                                    <br><span class="text-muted" style="display:inline-block">Другой крупный каталог иконок.</span>
+                                  </li>
+                              <li>
+                  <a href="http://getbootstrap.com/" target="_blank">                    Bootstrap
+                    </a>                                    <br><span class="text-muted" style="display:inline-block">Один из самых популярных фреймворков CSS и JS.</span>
+                                  </li>
+                          </ol>
+                      <h3>
+              Тема III. JavaScript
+                          </h3>
+            <ol>
+                              <li>
+                  <a href="http://javascript.ru/" target="_blank">                    JavaScript.ru
+                    </a>                                    <br><span class="text-muted" style="display:inline-block">Хороший сайт с учебником, справочником и практичными статьями.</span>
+                                  </li>
+                              <li>
+                  <a href="http://habrahabr.ru/post/159313/" target="_blank">                    Подводные камни JavaScript
+                    </a>                                    <br><span class="text-muted" style="display:inline-block">Средний уровень. Хорошая статья о специфики типов и других странностях JS.</span>
+                                  </li>
+                              <li>
+                  <a href="http://habrahabr.ru/post/120192/" target="_blank">                    JavaScript F.A.Q. на ХабраХабр
+                    </a>                                    <br><span class="text-muted" style="display:inline-block">Варьированный уровень знаний. Замечательный набор вопросов и ответов. Вопросы собирались в комментариях к другому посту на сайте, поэтому они очень практичные. К сожалению, поэтому же первая часть изобилует сложными вопросами, имеющими смысл только для веб-разработчиков. Тем не менее стОит просмотреть все вопросы и в первой, и второй частях &amp;ndash; возможно, найдёте что-то интересное и полезное для вашего уровня знаний. К тому же вопросы снабжены ссылками на статьи по темам.</span>
+                                  </li>
+                              <li>
+                  <a href="http://habrahabr.ru/post/124327/" target="_blank">                    JavaScript F.A.Q. на ХабраХабр. Ч.2
+                    </a>                                    
+                                  </li>
+                              <li>
+                  <a href="http://habrahabr.ru/post/208922/" target="_blank">                    JavaScript: проверьте свою интуицию
+                    </a>                                    <br><span class="text-muted" style="display:inline-block">Продвинутый уровень знаний. Статья о странностях JS.</span>
+                                  </li>
+                              <li>
+                                      JavaScript. Подробное руководство
+                                      <br>Дэвид Флэнаган
+2000
+                  <br><span class="text-muted" style="display:inline-block">Объёмная книга с разъяснением синтаксиса JS, основных объектов ядра. Есть раздел о CSS, jQuery.</span>
+                                  </li>
+                              <li>
+                                      Изучаем JavaScript
+                                      <br>Моррисон М.                  <br><span class="text-muted" style="display:inline-block">Большая книга о JS. Для любителей серии Head First (множество иллюстраций, примеров).</span>
+                                  </li>
+                              <li>
+                  <a href="http://api.jquery.com/category/core/" target="_blank">                    jQuery API documentation
+                    </a>                                    <br><span class="text-muted" style="display:inline-block">Официальная документация jQuery.</span>
+                                  </li>
+                              <li>
+                                      jQuery. Подробное руководство по продвинутому JavaScript
+                                      <br>Бер Бибо, Иегуда Кац                  <br><span class="text-muted" style="display:inline-block">JS тут не продвинутый, но зато это вполне хороший учебник по jQuery.</span>
+                                  </li>
+                          </ol>
+                      <h3>
+              Тема IV. Серверная часть веб-приложения
+                          </h3>
+            <ol>
+                              <li>
+                  <a href="http://help.ubuntu.ru/wiki/администрирование" target="_blank">                    Серверное ПО Ubuntu
+                    </a>                                    <br><span class="text-muted" style="display:inline-block">Простое и достаточно краткое руководство по настройке серверного ПО в контексте Ubuntu.</span>
+                                  </li>
+                              <li>
+                  <a href="http://help.ubuntu.ru/" target="_blank">                    Документация Ubuntu
+                    </a>                                    <br><span class="text-muted" style="display:inline-block">Документация по Ubuntu. Обратите внимание на разделы &quot;Пользовательская документация&quot; и &quot;Семейство Ubuntu&quot;.</span>
+                                  </li>
+                              <li>
+                                      Linux. Установка, настройка, администрирование
+                                      <br>Кофлер М.                  <br><span class="text-muted" style="display:inline-block">Объёмная, полноценная книга.</span>
+                                  </li>
+                              <li>
+                  <a href="http://httpd.apache.org/docs/2.0/ru/" target="_blank">                    Документация к HTTP серверу Apache версии 2.0
+                    </a>                                    <br><span class="text-muted" style="display:inline-block">Документация по слегка устаревшей версии Apache 2.0 на русском.</span>
+                                  </li>
+                              <li>
+                  <a href="http://httpd.apache.org/docs/2.4/" target="_blank">                    Apache HTTP Server Version 2.4 Documentation
+                    </a>                                    <br><span class="text-muted" style="display:inline-block">Документация по современной версии Apache 2.4 на английском.</span>
+                                  </li>
+                              <li>
+                  <a href="https://habrahabr.ru/post/319670/" target="_blank">                    Консоль в массы. Переход на светлую сторону. Bash
+                    </a>                                    
+                                  </li>
+                              <li>
+                                      PHP и MySQL. Разработка Web-приложений (Профессиональное программирование)
+                                      <br>Д. Колисниченко                  <br><span class="text-muted" style="display:inline-block">Относительно свежая книга, рассматривается очень многое из мира PHP и точно самое нужное. К сожалению, книга больше похожа на справочник из-за неторопливости изложения, хотя объяснения и рекомендации в неё тоже присутствуют.</span>
+                                  </li>
+                              <li>
+                                      Разработка веб-приложений с помощью PHP и MySQL
+                                      <br>Люк Веллинг и Лора Томпсон                  <br><span class="text-muted" style="display:inline-block">Книга для тех, кто имеет мало опыта в программировнаии в принципе. Практически всё, то рассказывается о PHP, MySQL в книге верно и по сей день, но с тех пор появилось много нового. К тому же в книге не описан хороший подход к проектированию приложений. Так что она годится только для новичков, чтобы познакомиться с PHP, MySQL.</span>
+                                  </li>
+                              <li>
+                                      Изучаем PHP и MySQL
+                                      <br>Мориссон.М                  <br><span class="text-muted" style="display:inline-block">Для любителей серии Head First (картинки и много примеров). Так же, как и предыдущая книга, не содержит современных данных и профессиональных подходов, к тому же гораздо более длинная.</span>
+                                  </li>
+                              <li>
+                                      PHP 5
+                                      <br>Котеров,Костарев                  <br><span class="text-muted" style="display:inline-block">Очень хорошая книга из-за своего основательного подхода. Очень важна первая глава с объяснением приципов работы современного Веба. К сожалению, последнее издание, как и у прошлых книг, было слишком давно.</span>
+                                  </li>
+                              <li>
+                  <a href="http://php.net/manual/ru/types.comparisons.php" target="_blank">                    Таблицы преобразования типов PHP
+                    </a>                                    <br><span class="text-muted" style="display:inline-block">gettype(), empty(), is_null(), isset(), boolean:if($x), ==, ===</span>
+                                  </li>
+                              <li>
+                  <a href="http://php.net/manual/ru/reference.pcre.pattern.syntax.php" target="_blank">                    Синтаксис регулярных выражений в документации PHP
+                    </a>                                    
+2000
+
+                                  </li>
+                              <li>
+                  <a href="http://ru.libcurl.wikia.com/wiki/Libcurlru_вики" target="_blank">                    cURL wiki
+                    </a>                                    <br><span class="text-muted" style="display:inline-block">Документация по программе cURL</span>
+                                  </li>
+                              <li>
+                  <a href="http://php.net/manual/ru/book.curl.php" target="_blank">                    cURL PHP
+                    </a>                                    <br><span class="text-muted" style="display:inline-block">Документация PHP для рабоыт с функциями cURL</span>
+                                  </li>
+                              <li>
+                  <a href="datatypes.txt" target="_blank">                    Ссылки по форматам хранения данных (csv, json, xml, yaml и др.)
+                    </a>                                    
+                                  </li>
+                              <li>
+                  <a href="http://swiftmailer.org/" target="_blank">                    Swift Mailer
+                    </a>                                    <br><span class="text-muted" style="display:inline-block">Библиотека для отправки e-mail от Sensiolabs.</span>
+                                  </li>
+                          </ol>
+                      <h3>
+              Тема V. MySQL
+                          </h3>
+            <ol>
+                              <li>
+                                      Полный справочник по MySQL
+                                      <br>Викрам Васвани                  <br><span class="text-muted" style="display:inline-block">Очень хорошая книга-справочник по MySQL с множеством примеров.</span>
+                                  </li>
+                              <li>
+                  <a href="http://habrahabr.ru/post/141127/" target="_blank">                    MySQLi раскладываем все по полочкам
+                    </a>                                    <br><span class="text-muted" style="display:inline-block">Хорошая статья о модуле PHP для работы с MySQL - mysqli ( модуль mysql устарел! ).</span>
+                                  </li>
+                              <li>
+                  <a href="http://habrahabr.ru/post/137664/" target="_blank">                    Почему стоит пользоваться PDO для работы с базой данных
+                    </a>                                    <br><span class="text-muted" style="display:inline-block">Хорошая статья о другом модуле PHP для работы с MySQL - pdo_mysql.</span>
+                                  </li>
+                              <li>
+                  <a href="http://toster.ru/q/47238" target="_blank">                    mysqli vs PDO — что выбрать?
+                    </a>                                    <br><span class="text-muted" style="display:inline-block">Какой модуль PHP использовать для работы с MySQL?</span>
+                                  </li>
+                          </ol>
+                      <h3>
+              Тема VI. Продвинутые техники разработки
+                          </h3>
+            <ol>
+                              <li>
+                  <a href="http://git-scm.com/book/ru" target="_blank">                    Pro Git
+                    </a>                                    <br><span class="text-muted" style="display:inline-block">Книга о распределённой системе контроля версий Git. Охватывает широкий спектр возможностей Git и поясняет всё на простых примерах. В версии на русском могут не открываться отдельные страницы, переключение языка в левом столбце.</span>
+                                  </li>
+                              <li>
+                  <a href="https://commons.wikimedia.org/wiki/File:ASCII_Code_Chart.svg?uselang=ru" target="_blank">                    Таблица символов ASCII
+                    </a>                                    
+                                  </li>
+                          </ol>
+                  </div>
+              <div role="tabpanel" class="tab-pane" id="advphp">
+          <h1 class="pull-left">Продвинутое программирование на PHP</h1>
+          
+          <br /><br /><br />
+          <hr />
+
+                      <ul>
+                          </ul>
+            <hr />
+          
+          
+          <h2>Литература, источники</h2>
+
+                      <h3>
+              Общая
+                          </h3>
+            <ol>
+                              <li>
+                  <a href="https://habrahabr.ru/post/259497/" target="_blank">                    Приведение типов в PHP == табурет о двух ножках?
+                    </a>                                    <br><span class="text-muted" style="display:inline-block">Статья с задачками о приведениях типов в PHP. Полезно почитать и попытаться понять, почему язык выдаёт такие результаты. Стоит иметьв  виду, что в PHP7 некоторые примеры выдают результат отличный от статьи. И, конечно, почти всегда нужно использовать явное приведение типов и оператор ===. В комментариях тоже есть полезные идеи.</span>
+                                  </li>
+                              <li>
+                  <a href="http://getcomposer.org" target="_blank">                    Composer Dependency Manager
+                    </a>                                    <br><span class="text-muted" style="display:inline-block">Мощный менеджер зависимостей для  программ на PHP.</span>
+                                  </li>
+                          </ol>
+                  </div>
+              <div role="tabpanel" class="tab-pane" id="markup">
+          <h1 class="pull-left">Вёрстка</h1>
+          
+          <br /><br /><br />
+          <hr />
+
+                      <ul>
+                              <li>
+                  <a href="https://github.com/istamendil/kfu-markup" target="_blank">                    Репозиторий GitHub
+                    </a>                                                                      </li>
+                          </ul>
+            <hr />
+          
+                      <h2>Презентации</h2>
+            <ul>
+                              <li>
+                  <a href="/content/presentations/HTML Basic.ppt" target="_blank">                    Основы HTML
+                    </a>                                                                      </li>
+                              <li>
+                  <a href="/content/presentations/CSS Basic.ppt" target="_blank">                    Основы CSS
+                    </a>                                                                      </li>
+                              <li>
+                  <a href="/content/presentations/students/Icons.pptx" target="_blank">                    Иконки
+                    </a>                                                                      </li>
+                              <li>
+                  <a href="/content/presentations/students/Colors.pptx" target="_blank">                    Цвета в веб-дизайне
+  
+2000
+                  </a>                                                                      </li>
+                              <li>
+                  <a href="/content/presentations/students/Fonts.pdf" target="_blank">                    Шрифты
+                    </a>                                                                      </li>
+                              <li>
+                  <a href="/content/presentations/students/jQuery.pdf" target="_blank">                    jQuery
+                    </a>                                                                      </li>
+                              <li>
+                  <a href="/content/presentations/students/jQuery_plugins.pptx" target="_blank">                    Обзор плагинов jQuery
+                    </a>                                                                      </li>
+                              <li>
+                  <a href="/content/presentations/students/Animation.pptx" target="_blank">                    Анимация
+                    </a>                                                                      </li>
+                              <li>
+                  <a href="/content/presentations/students/Using_Fonts_Sprites.pptx" target="_blank">                    Подключение шрифтов и Спрайты
+                    </a>                                                                      </li>
+                              <li>
+                  <a href="/content/presentations/students/Sass.pptx" target="_blank">                    SASS
+                    </a>                                                                      </li>
+                              <li>
+                  <a href="/content/presentations/students/Vertical_centering.pdf" target="_blank">                    Вертикальное центрирование
+                    </a>                                                                      </li>
+                              <li>
+                  <a href="/content/presentations/students/Flex.pptx" target="_blank">                    Flex Box Model
+                    </a>                                                                      </li>
+                          </ul>
+            <hr />
+          
+          <h2>Литература, источники</h2>
+
+                      <h3>
+              Общая
+                          </h3>
+            <ol>
+                              <li>
+                  <a href="http://html5.by/blog/flexbox/" target="_blank">                    Что такое Flexbox? Описание всех css свойств, основные принципы, преимущества и недостатки.
+                    </a>                                    
+                                  </li>
+                              <li>
+                  <a href="https://css-tricks.com/" target="_blank">                    CSS Tricks
+                    </a>                                    <br><span class="text-muted" style="display:inline-block">Хороший блог о CSS с множеством обновляемых (!) статей.</span>
+                                  </li>
+                              <li>
+                  <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank">                    A Complete Guide to Flexbox
+                    </a>                                    
+                                  </li>
+                              <li>
+                  <a href="https://github.com/philipwalton/flexbugs" target="_blank">                    Flexbugs
+                    </a>                                    
+                                  </li>
+                              <li>
+                  <a href="https://www.w3.org/TR/mediaqueries-4/#media-feature" target="_blank">                    Media Queries Level 4
+                    </a>                                    
+                                  </li>
+                              <li>
+                  <a href="https://css-tricks.com/almanac/properties/d/display/" target="_blank">                    Свойство display
+                    </a>                                    
+                                  </li>
+                              <li>
+                  <a href="http://html5book.ru/css3-mediazaprosy/" target="_blank">                    CSS3 медиа запросы
+                    </a>                                    
+                                  </li>
+                              <li>
+                  <a href="https://css-tricks.com/snippets/css/complete-guide-grid/" target="_blank">                    A Complete Guide to Grid
+                    </a>                                    
+                                  </li>
+                              <li>
+                  <a href="http://gs.statcounter.com/" target="_blank">                    Statcounter.com
+                    </a>                                    <br><span class="text-muted" style="display:inline-block">Глобальная статистика использования браузеров, операционных систем, разрешений экранов</span>
+                                  </li>
+                              <li>
+                  <a href="http://mydevice.io/" target="_blank">                    Mydevice.io
+                    </a>                                    <br><span class="text-muted" style="display:inline-block">Информация о вашем браузере и экране</span>
+                                  </li>
+                              <li>
+                  <a href="https://kuler.adobe.com/ru/create/color-wheel/" target="_blank">                    Adobe Kuler
+                    </a>                                    <br><span class="text-muted" style="display:inline-block">Цветовой круг для получения подбора цветов и набор существующих подборок.</span>
+                                  </li>
+                              <li>
+                  <a href="http://designerstoolbox.com/designresources/safearea/compare/" target="_blank">                    &quot;Безопасные зоны экрана&quot; для разных браузеров и разрешений
+                    </a>                                    <br><span class="text-muted" style="display:inline-block">Реальные размерности, которые может занять сайт при разных разрешениях с учётом полос прокрутки и других элементов браузеров. Кроме чисел есть ссылки для скачивания psd-заготовок под эти размеры.</span>
+                                  </li>
+                              <li>
+                  <a href="https://habrahabr.ru/post/164977/" target="_blank">                    Adobe бесплатно раздает Creative Suite 2 (или же не раздает?)
+                    </a>                                    <br><span class="text-muted" style="display:inline-block">Обсуждение ситуации с открытым доступом к ключам продуктов Adobe Creative Suite 2.</span>
+                                  </li>
+                          </ol>
+                      <h3>
+              CSS-фреймворки
+                          </h3>
+            <ol>
+                              <li>
+                  <a href="http://necolas.github.io/normalize.css/" target="_blank">                    Normalize.css
+                    </a>                                    
+                                  </li>
+                              <li>
+                  <a href="http://getbootstrap.com" target="_blank">                    Bootstrap
+                    </a>                                    
+                                  </li>
+                     
+2000
+         <li>
+                  <a href="http://foundation.zurb.com/" target="_blank">                    Foundation
+                    </a>                                    
+                                  </li>
+                              <li>
+                  <a href="http://semantic-ui.com/" target="_blank">                    Semantic UI
+                    </a>                                    
+                                  </li>
+                          </ol>
+                      <h3>
+              Анимация и рисование
+                          </h3>
+            <ol>
+                              <li>
+                  <a href="http://topolyan.com/w3c/html_canvas_2d_context_ru.html" target="_blank">                    HTML Canvas 2D Context
+                    </a>                                    
+                                  </li>
+                              <li>
+                  <a href="https://habrahabr.ru/post/111308/" target="_blank">                    Серия статей CANVAS шаг за шагом
+                    </a>                                    
+                                  </li>
+                              <li>
+                  <a href="https://webref.ru/dev/canvasdeepdive/chapter01" target="_blank">                    Основы рисования (статья о Canvas на Webref.ru)
+                    </a>                                    
+                                  </li>
+                              <li>
+                  <a href="https://learn.javascript.ru/js-animation" target="_blank">                    JS-Анимация
+                    </a>                                    
+                                  </li>
+                          </ol>
+                      <h3>
+              JavaScript
+                          </h3>
+            <ol>
+                              <li>
+                  <a href="https://jquery.com/" target="_blank">                    jQuery
+                    </a>                                    
+                                  </li>
+                              <li>
+                  <a href="http://mootools.net/" target="_blank">                    MooTools
+                    </a>                                    
+                                  </li>
+                              <li>
+                  <a href="http://prototypejs.org/" target="_blank">                    Prototype (библиотека)
+                    </a>                                    
+                                  </li>
+                              <li>
+                  <a href="https://bower.io/" target="_blank">                    Bower - A package manager for the web
+                    </a>                                    
+                                  </li>
+                          </ol>
+                      <h3>
+              Препроцессоры. Альтернативы CSS и JS
+                          </h3>
+            <ol>
+                              <li>
+                  <a href="http://lesscss.org/" target="_blank">                    LESS
+                    </a>                                    
+                                  </li>
+                              <li>
+                  <a href="http://sass-lang.com/" target="_blank">                    SASS
+                    </a>                                    
+                                  </li>
+                              <li>
+                  <a href="http://coffeescript.org/" target="_blank">                    CoffeeScript
+                    </a>                                    
+                                  </li>
+                          </ol>
+                      <h3>
+              Проблемы и практики
+                          </h3>
+            <ol>
+                              <li>
+                  <a href="http://html5.by/blog/placeholder/" target="_blank">                    Стилизуем placeholder при помощи CSS. Синтаксис, трюки, поддерживаемые стили в html5
+                    </a>                                    
+                                  </li>
+                              <li>
+                  <a href="http://vanseodesign.com/css/vertical-centering/" target="_blank">                    6 Methods For Vertical Centering With CSS by Vanseodesign
+                    </a>                                    
+                                  </li>
+                              <li>
+                  <a href="https://css-tricks.com/guide-responsive-friendly-css-columns/" target="_blank">                    Guide to Responsive-Friendly CSS Columns
+                    </a>                                    
+                                  </li>
+                          </ol>
+                      <h3>
+              Другие технологии
+                          </h3>
+            <ol>
+                              <li>
+                  <a href="https://nodejs.org/en/" target="_blank">                    Node.js
+                    </a>                                    
+                                  </li>
+                          </ol>
+                  </div>
+              <div role="tabpanel" class="tab-pane" id="algads">
+          <h1 class="pull-left">Алгоритмы и структуры данных</h1>
+          
+          <br /><br /><br />
+          <hr />
+
+                      <ul>
+                          </ul>
+            <hr />
+          
+          
+          <h2>Литература, источники</h2>
+
+                      <h3>
+              Общая
+                          </h3>
+            <ol>
+                              <li>
+                  <a href="https://habrahabr.ru/company/wunderfund/blog/277143/" target="_blank">                    Алгоритмы и структуры данных в ядре Linux, Chromium и не только
+                    </a>                                    
+                                  </li>
+                              <li>
+                  <a href="https://stepic.org/course/Алгоритмы-и-структуры-данных-156/" target="_blank">                    Курс &quot;Алгоритмы и структуры данных&quot; от Mail.Ru Group
+                    </a>                  <br>Степан Мацкевич                  
+                                  </li>
+                          </ol>
+                  </div>
+              <div role="tabpanel" class="tab-pane" id="java1">
+          <h1 class="pull-left">Программирование (Java). 1 семестр</h1>
+          
+          <br /><br /><br />
+          <hr />
+
+                      <ul>
+                              <li>
+                  <a href="https://docs.google.com/spreadsheets/d/1g0B73OZkpZDfRW1SP-5DU9J2RNuU6VF9wrCFvKrfpko/edit?usp=sharing" target="_blank">                    Баллы группы 001
+                    </a>                                                                      </li>
+                              <li>
+                  <a href="https://github.com/istamendil/kfu-programming-java1" target="_blank">                    Репозиторий GitHub
+                    </a>                                                                      </li>
+                          </ul>
+            <hr />
+          
+          
+          <h2>Литература, источники</h2>
+
+                      <h3>
+              Общая
+                          </h3>
+            <ol>
+                              <li>
+                  <a href="https://Habrahabr.ru" target="_blank">                    Habrahabr.ru
+                    </a>                                    
+                                  </li>
+                              <li>
+                  <a href="http://Stackoverflow.com/" target="_blank">                    Stackoverflow.com + StackExchange communities
+                    </a>                                    
+               
+2000
+                   </li>
+                              <li>
+                  <a href="https://github.com/bayandin/awesome-awesomeness" target="_blank">                    Awesome lists
+                    </a>                                    <br><span class="text-muted" style="display:inline-block">Подборки ссылок на полезные ресурсы, скомпанованные по технологиям. Достаточно субъективные, но интересные.</span>
+                                  </li>
+                              <li>
+                  <a href="http://ru.stackoverflow.com/questions/153328/%D0%9D%D0%B5%D0%B2%D0%B5%D1%80%D0%BD%D0%BE%D0%B5-%D0%BE%D1%82%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5-%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8%D1%85-%D1%81%D0%B8%D0%BC%D0%B2%D0%BE%D0%BB%D0%BE%D0%B2" target="_blank">                    Неверное отображение русских символов
+                    </a>                                    
+                                  </li>
+                          </ol>
+                      <h3>
+              Процесс разработки
+                          </h3>
+            <ol>
+                              <li>
+                  <a href="http://git-scm.com/book/ru" target="_blank">                    Pro Git
+                    </a>                                    <br><span class="text-muted" style="display:inline-block">Книга о распределённой системе контроля версий Git. Охватывает широкий спектр возможностей Git и поясняет всё на простых примерах. В версии на русском могут не открываться отдельные страницы, переключение языка в левом столбце.</span>
+                                  </li>
+                          </ol>
+                      <h3>
+              Java
+                          </h3>
+            <ol>
+                              <li>
+                                      Изучаем Java
+                                      <br>Кэтти Сьерра, Берт Бейтс                  <br><span class="text-muted" style="display:inline-block">Учебник &quot;в картинках&quot;. Всё объясняется на практике. Рекомендуется для тех, кому тяжело даётся программирование. Сложно использовать, как справочник.</span>
+                                  </li>
+                              <li>
+                                      Java 7
+                                      <br>Ильдар Хабибуллин                  <br><span class="text-muted" style="display:inline-block">Книга, написанная лектором первого курса Информатики/Программирования в некоторых интститутах КФУ. Что-то среднее между справочником и учебником. Хорошо проясняет некоторые особенности языка и его библиотек.</span>
+                                  </li>
+                              <li>
+                                      Java 8. Полное руководство
+                                      <br>Герберт Шилдт                  <br><span class="text-muted" style="display:inline-block">Больше справочник, нежели учебник.</span>
+                                  </li>
+                              <li>
+                  <a href="http://stackoverflow.com/questions/29140402/how-do-i-print-my-java-object-without-getting-sometype2f92e0f4" target="_blank">                    How do I print my Java object without getting “SomeType@2f92e0f4”?
+                    </a>                                    
+                                  </li>
+                              <li>
+                  <a href="https://www.baeldung.com/java-create-jar" target="_blank">                    Guide to Creating and Running a Jar File in Java
+                    </a>                                    
+                                  </li>
+                          </ol>
+                      <h3>
+              Алгоритмы
+                          </h3>
+            <ol>
+                              <li>
+                  <a href="http://habrahabr.ru/post/204600/" target="_blank">                    Пузырьковая сортировка и все-все-все
+                    </a>                                    <br><span class="text-muted" style="display:inline-block">Обзорная статья об алгоритмах сортировки различными перестановочными методами.</span>
+                                  </li>
+                              <li>
+                  <a href="http://stackoverflow.com/questions/3707190/why-java-arrays-use-two-different-sort-algorithms-for-different-types" target="_blank">                    Why java Arrays use two different sort algorithms for different types?
+                    </a>                                    <br><span class="text-muted" style="display:inline-block">О том, какие алгоритмы сортировки использует Java в Arrays#sort и почему.</span>
+                                  </li>
+                          </ol>
+                  </div>
+              <div role="tabpanel" class="tab-pane" id="java2">
+          <h1 class="pull-left">Программирование (Java). 2 семестр</h1>
+          
+          <br /><br /><br />
+          <hr />
+
+                      <ul>
+                              <li>
+                  <a href="https://github.com/istamendil/kfu-programming-java2" target="_blank">                    Репозиторий GitHub
+                    </a>                                                                      </li>
+                          </ul>
+            <hr />
+          
+          
+          <h2>Литература, источники</h2>
+
+                      <h3>
+              Java
+                          </h3>
+            <ol>
+                              <li>
+                  <a href="http://winterbe.com/posts/2015/04/30/java8-concurrency-tutorial-synchronized-locks-examples/" target="_blank">                    Java 8 Concurrency Tutorial: Synchronization and Locks
+                    </a>                                    
+                                  </li>
+                              <li>
+                  <a href="http://www.quizful.net/post/java-generics-tutorial" target="_blank">                    Дженерики
+                    </a>                  <br>Георгий Пугачёв                  <br><span class="text-muted" style="display:inline-block">Статья с простыми и понятными примерами</span>
+                                  </li>
+                              <li>
+                  <a href="http://habrahabr.ru/post/139736/" target="_blank">                    Аннотации в JAVA: обзор синтаксиса и создание собственных
+                    </a>                                    <br><span class="text-muted" style="display:inline-block">Небольшая статья про возможности определения своих аннотаций.</span>
+                                  </li>
+                              <li>
+                  <a href="http://stackoverflow.com/questions/1500827/java-how-can-i-require-a-method-argument-to-implement-multiple-interfaces" target="_blank">                    How can I require a method argument to implement multiple interfaces?
+                    </a>                                    <br><span class="text-muted" style="display:inline-block">Как мне заставить метод аргумента реализовыват�
+2000
+� несколько интерфейсов? Об использовании Wildcards и универсальных методах.</span>
+                                  </li>
+                              <li>
+                  <a href="https://docs.oracle.com/javase/8/docs/technotes/guides/collections/index.html" target="_blank">                    The Collections Framework
+                    </a>                                    <br><span class="text-muted" style="display:inline-block">Официальное описание существующих инструментов и правил для работы с коллекциями</span>
+                                  </li>
+                              <li>
+                  <a href="https://habrahabr.ru/users/tarzan82/topics/" target="_blank">                    Несколько подробных статей о разных коллекциях
+                    </a>                                    
+                                  </li>
+                              <li>
+                  <a href="http://www.quizful.net/post/Java-Collections" target="_blank">                    Коллекции в Java
+                    </a>                                    <br><span class="text-muted" style="display:inline-block">Краткое описание большинства основных коллекций</span>
+                                  </li>
+                          </ol>
+                      <h3>
+              Архитектура, общие принципы программирования
+                          </h3>
+            <ol>
+                              <li>
+                  <a href="http://programmers.stackexchange.com/questions/150045/what-is-the-point-of-having-every-service-class-have-an-interface" target="_blank">                    What is the point of having every service class have an interface?
+                    </a>                                    <br><span class="text-muted" style="display:inline-block">В чём смысл иметь каждому сервисному классу интерфейс? Обсуждаются разные случаи,  solid, а в дублирующих вопросах (см. ссылки около заголовка вопроса) выступают и те, кто считает, что 1 класс-1 интерфейс - это плохо.</span>
+                                  </li>
+                          </ol>
+                  </div>
+              <div role="tabpanel" class="tab-pane" id="java3">
+          <h1 class="pull-left">Программирование (Java). 3 семестр</h1>
+          
+          <br /><br /><br />
+          <hr />
+
+                      <ul>
+                              <li>
+                  <a href="https://docs.google.com/spreadsheets/d/1CvdliMowFHk5_ILUZz7Gw7ZWp6xm9s5qRiPfHy_en_8/edit?usp=sharing" target="_blank">                    Баллы группы 902
+                    </a>                                                                      </li>
+                              <li>
+                  <a href="https://docs.google.com/spreadsheets/d/1oK0lOpDmQuaop4NVuJQKLBec0WC3MoSnr42pnxhRMzg/edit?usp=sharing" target="_blank">                    Баллы группы 903
+                    </a>                                                                      </li>
+                              <li>
+                  <a href="https://github.com/istamendil/kfu-programming-java3" target="_blank">                    Репозиторий GitHub
+                    </a>                                                                      </li>
+                          </ul>
+            <hr />
+          
+                      <h2>Презентации</h2>
+            <ul>
+                              <li>
+                  <a href="http://prezi.com/-jwqwx0d2xuw/theme-1-www/" target="_blank">                    WWW
+                    </a>                                                                      </li>
+                              <li>
+                  <a href="http://prezi.com/xgqvhv78jffn/?utm_campaign=share&amp;utm_medium=copy&amp;rc=ex0share" target="_blank">                    Maven
+                    </a>                                                                      </li>
+                          </ul>
+            <hr />
+          
+          <h2>Литература, источники</h2>
+
+                      <h3>
+              Общая
+                          </h3>
+            <ol>
+                              <li>
+                  <a href="http://rubular.com/" target="_blank">                    Rubular
+                    </a>                                    <br><span class="text-muted" style="display:inline-block">Шпаргалка по регулярным выражениям и инструмент для их проверки.</span>
+                                  </li>
+                              <li>
+                  <a href="https://curl.haxx.se/docs/httpscripting.html" target="_blank">                    Using cURL to automate HTTP jobs
+                    </a>                                    <br><span class="text-muted" style="display:inline-block">Создание запросов HTTP из консоли с помощью программы cURL</span>
+                                  </li>
+                          </ol>
+                      <h3>
+              Процесс разработки
+                          </h3>
+            <ol>
+                              <li>
+                  <a href="http://git-scm.com/book/ru" target="_blank">                    Pro Git
+                    </a>                                    <br><span class="text-muted" style="display:inline-block">Книга о распределённой системе контроля версий Git. Охватывает широкий спектр возможностей Git и поясняет всё на простых примерах. В версии на русском могут не открываться отдельные страницы, переключение языка в левом столбце.</span>
+                                  </li>
+                              <li>
+                  <a href="http://maven.apache.org/guides/getting-started/maven-in-five-minutes.html" target="_blank">                    Maven in 5 minutes
+                    </a>                                    <br><span class="text-muted" style="display:inline-block">Официальное руководство для начинающих по началу работы с фреймворк для автоматизации сборки проектов Maven.</span>
+                                  </li>
+                              <li>
+                  <a href="http://habrahabr.ru/post/77333/" target="_blank">                    Maven — автоматизация сборки проекта
+                    </a>                                    <br><span class="text-muted" style="display:inline-block">Обзор Maven</span>
+                                  </li>
+                              <li>
+                  <a href="http://habrahabr.ru/post/77382/" target="_blank">                    Apache Maven — основы
+                    </a>                                    <br><span class="text-muted" style="display:inline-block">Краткое руководство для начинающих</span>
+                                  </li>
+                          </ol>
+                      <h3>
+              Вёрстка
+                          </h3>
+            <ol>
+                              <li>
+                  <a href="http://webref.ru" target="_blank">                    WebReference.ru
+                    </a>                                    
+                                  </li>
+                              <li>
+                  <a href="http://caniuse.com/" target="_blank">                    Can I use ... ?
+   
+2000
+                 </a>                                    <br><span class="text-muted" style="display:inline-block">Сайт с информацией о поддержке браузерами различных технологий HTML, CSS, JS, SVG и смежных им.</span>
+                                  </li>
+                              <li>
+                                      CSS3 для веб-дизайнеров
+                                      <br>Дэн Сидерхолм                  <br><span class="text-muted" style="display:inline-block">Маленькая книга о новом в CSS3, о стандартах и об истории CSS.</span>
+                                  </li>
+                              <li>
+                  <a href="http://habrahabr.ru/post/42151/" target="_blank">                    CSS Font-Size: em vs. px vs. pt vs. percent
+                    </a>                                    <br><span class="text-muted" style="display:inline-block">Статья со сравнением типов указания размера шрифта в CSS.</span>
+                                  </li>
+                              <li>
+                  <a href="http://pattle.github.io/simpsons-in-css/" target="_blank">                    Симпсоны на чистом CSS
+                    </a>                                    <br><span class="text-muted" style="display:inline-block">Пример высшего пилотажа на CSS: описывание изображения Симпсонов без графики.</span>
+                                  </li>
+                              <li>
+                  <a href="http://getbootstrap.com/" target="_blank">                    Bootstrap
+                    </a>                                    <br><span class="text-muted" style="display:inline-block">Один из самых популярных фреймворков CSS и JS.</span>
+                                  </li>
+                          </ol>
+                      <h3>
+              Java
+                          </h3>
+            <ol>
+                              <li>
+                  <a href="https://javaee.github.io/javaee-spec/download/JavaEE8_Platform_Spec_FinalRelease.pdf" target="_blank">                    Java Platform, Enterprise Edition (Java EE) Specification, v8
+                    </a>                                    <br><span class="text-muted" style="display:inline-block">Также различные полезные ссылки и описания в целом по Java EE 8: https://www.oracle.com/ru/java/technologies/java-ee-glance.html</span>
+                                  </li>
+                              <li>
+                                      Java сервлеты и JSP: сборник рецептов, 2009
+                                      <br>Брюс У. Перри.                  
+                                  </li>
+                              <li>
+                                      Beginning JSP, JSF and Tomcat Web Development From Novice to Professionall, 2007
+                                      <br>Giulio Zambon, Michael Sekler                  
+                                  </li>
+                              <li>
+                  <a href="http://help.ubuntu.com/lts/serverguide/tomcat.html" target="_blank">                    http://help.ubuntu.com/lts/serverguide/tomcat.html
+                    </a>                                    
+                                  </li>
+                              <li>
+                  <a href="http://tomcat.apache.org" target="_blank">                    http://tomcat.apache.org
+                    </a>                                    
+                                  </li>
+                              <li>
+                  <a href="https://docs.oracle.com/cd/E13222_01/wls/docs81/webapp/web_xml.html" target="_blank">                    A web.xml Deployment Descriptor Elements
+                    </a>                                    <br><span class="text-muted" style="display:inline-block">Описание элементов файла web.xml.</span>
+                                  </li>
+                              <li>
+                  <a href="http://www.tutorialspoint.com/jsp/jsp_standard_tag_library.htm" target="_blank">                    JSP - Standard Tag Library (JSTL) Tutorial
+                    </a>                                    
+                                  </li>
+                              <li>
+                  <a href="https://docs.oracle.com/javase/tutorial/uiswing/layout/visual.html" target="_blank">                    A Visual Guide to Layout Managers
+                    </a>                                    <br><span class="text-muted" style="display:inline-block">Описание основных менеджеров компоновки</span>
+                                  </li>
+                              <li>
+                  <a href="https://docs.oracle.com/javase/tutorial/uiswing/concurrency/" target="_blank">                    Concurrency in Swing
+                    </a>                                    
+                                  </li>
+                              <li>
+                  <a href="https://examples.javacodegeeks.com/core-java/nio/java-nio-socket-example/" target="_blank">                    Java NIO Socket Example
+                    </a>                                    
+                                  </li>
+                              <li>
+                  <a href="https://habr.com/post/235585/" target="_blank">                    Основные отличия Java IO и Java NIO
+                    </a>                                    <br><span class="text-muted" style="display:inline-block">Хорошая статья, но в комментариях разъясняется, где в ней плохой код.</span>
+                                  </li>
+                              <li>
+                  <a href="https://habr.com/post/70690/" target="_blank">                    Java: Socks 4 Proxy работа с неблокирующими сокетами
+                    </a>                                    <br><span class="text-muted" style="display:inline-block">Написание прокси-сервера с помощью java nio.</span>
+                                  </li>
+                          </ol>
+                      <h3>
+              JavaScript
+                          </h3>
+            <ol>
+                              <li>
+                  <a href="http://javascript.ru/" target="_blank">                    JavaScript.ru
+                    </a>                                    <br><span class="text-muted" style="display:inline-block">Хороший сайт с учебником, справочником и практичными статьями.</span>
+                                  </li>
+                              <li>
+                  <a href="http://habrahabr.ru/post/159313/" target="_blank">                    Подводные камни JavaScript
+                    </a>                                    <br><span class="text-muted" style="display:inline-block">Средний уровень. Хорошая статья о специфики типов и других странностях JS.</span>
+                                  </li>
+                              <li>
+                  <a href="http://api.jquery.com/category/core/" target="_blank">                    jQuery API documentation
+                    </a>                                    <br><span class="text-muted" style="display:inline-block">Официальная документация jQuery.</span>
+                                  </li>
+                          </ol>
+                  </div>
+              <div role="tabpanel" class="tab-pane" id="java4">
+          <h1 class="pull-left">Программирование (Java). 4 семестр</h1>
+          
+          <br /><br /><br />
+  
+2000
+        <hr />
+
+                      <ul>
+                              <li>
+                  <a href="https://github.com/istamendil/kfu-programming-java4" target="_blank">                    Репозиторий на GitHub
+                    </a>                                                                      </li>
+                              <li>
+                  <a href="https://github.com/ist-programming/spring-bookcatalogue" target="_blank">                    Пример проекта на Spring WebMVC
+                    </a>                                                                      </li>
+                          </ul>
+            <hr />
+          
+                      <h2>Презентации</h2>
+            <ul>
+                              <li>
+                  <a href="http://prezi.com/-jwqwx0d2xuw/theme-1-www/" target="_blank">                    WWW
+                    </a>                                                                      </li>
+                              <li>
+                  <a href="http://prezi.com/_xsia5twyn6y/?utm_campaign=share&amp;utm_medium=copy" target="_blank">                    Spring
+                    </a>                                                                      </li>
+                              <li>
+                  <a href="http://prezi.com/xgqvhv78jffn/?utm_campaign=share&amp;utm_medium=copy&amp;rc=ex0share" target="_blank">                    Maven
+                    </a>                                                                      </li>
+                          </ul>
+            <hr />
+          
+          <h2>Литература, источники</h2>
+
+                      <h3>
+              Общая
+                          </h3>
+            <ol>
+                              <li>
+                  <a href="http://habrahabr.ru/post/166287/" target="_blank">                    Dependency Injection: анти-паттерны
+                    </a>                                    
+                                  </li>
+                              <li>
+                  <a href="http://habrahabr.ru/post/116232/" target="_blank">                    Инверсия управления/Inversion of Control
+                    </a>                                    
+                                  </li>
+                              <li>
+                  <a href="http://martinfowler.com/articles/injection.html" target="_blank">                    Inversion of Control Containers and the Dependency Injection pattern
+                    </a>                                    
+                                  </li>
+                              <li>
+                  <a href="http://www.mkyong.com/" target="_blank">                    Mkyong.com: Java web development tutorials
+                    </a>                                    <br><span class="text-muted" style="display:inline-block">Хороший набор мини-руководств по различным вопросам: создание просто проекта Spring, автоматическое размещение проекта Maven на Tomcat7 и др.</span>
+                                  </li>
+                              <li>
+                  <a href="http://www.w3schools.com/xml/xpath_syntax.asp" target="_blank">                    XPath Syntax (w3schools tutorial)
+                    </a>                                    <br><span class="text-muted" style="display:inline-block">Очень краткий справочник синтаксиса от W3Org</span>
+                                  </li>
+                              <li>
+                  <a href="https://docs.oracle.com/javaee/7/tutorial/index.html" target="_blank">                    Java Platform, Enterprise Edition: The Java EE Tutorial
+                    </a>                                    
+                                  </li>
+                          </ol>
+                      <h3>
+              Servers
+                          </h3>
+            <ol>
+                              <li>
+                  <a href="http://help.ubuntu.com/lts/serverguide/tomcat.html" target="_blank">                    http://help.ubuntu.com/lts/serverguide/tomcat.html
+                    </a>                                    
+                                  </li>
+                              <li>
+                  <a href="http://tomcat.apache.org" target="_blank">                    http://tomcat.apache.org
+                    </a>                                    
+                                  </li>
+                              <li>
+                                      Дистрибутив Tomcat: tomcat7-docs, tomcat7-examples
+                                                        
+                                  </li>
+                              <li>
+                  <a href="http://lauraliparulo.altervista.org/glassfish-4-0-hello-world-application-with-maven-3/" target="_blank">                    Glassfish 4.0 : “Hello world” application with Maven 3
+                    </a>                                    
+                                  </li>
+                          </ol>
+                      <h3>
+              JSP, JSF, Шаблонизаторы
+                          </h3>
+            <ol>
+                              <li>
+                  <a href="https://pebbletemplates.io" target="_blank">                    Pebble (Замена jTwig)
+                    </a>                                    <br><span class="text-muted" style="display:inline-block">Активно поддерживается и развивается</span>
+                                  </li>
+                              <li>
+                  <a href="http://freemarker.org/" target="_blank">                    Freemarker
+                    </a>                                    
+                                  </li>
+                              <li>
+                                      Beginning JSP, JSF and Tomcat Web Development From Novice to Professionall, 2007
+                                      <br>Giulio Zambon, Michael Sekler                  
+                                  </li>
+                              <li>
+                                      Java сервлеты и JSP: сборник рецептов, 2009
+                                      <br>Брюс У. Перри.                  
+                                  </li>
+                              <li>
+                  <a href="http://velocity.apache.org/" target="_blank">                    Velocity
+                    </a>                                    
+                                  </li>
+                              <li>
+                  <a href="http://jtwig.org/" target="_blank">                    JTwig
+                    </a>                                    
+                                  </li>
+                              <li>
+                  <a href="http://wiki.sitemesh.org/wiki/display/sitemesh/Home" target="_blank">                    SiteMesh
+                    </a>                                    
+                                  </li>
+                              <li>
+                  <a href="https://tiles.apache.org/" target="_blank">                    Tiles
+                    </a>                                    
+                                  </li>
+                              <li>
+                  <a href="http://www.thymeleaf.org/index.html" target="_blank">                    Thymeleaf
+                    </a>                                    
+                                  </li>
+                              <li>
+                  <a href="http://stackoverflow.com/questions/1296235/jsp-tricks-to-make-templating-easier" target="_blank">                    JSP tricks to make templating easier?
+                    </a>                                    <br><span class="text-muted" style="display:inline-block">Создание своих тегов в JSP и методика �
+2000
+�остроения системы шаблонов на основе этой возможности.</span>
+                                  </li>
+                          </ol>
+                      <h3>
+              Spring
+                          </h3>
+            <ol>
+                              <li>
+                  <a href="http://spring.io/" target="_blank">                    Spring.io
+                    </a>                                    
+                                  </li>
+                              <li>
+                  <a href="http://docs.spring.io/spring/docs/current/spring-framework-reference/html/" target="_blank">                    Docs.spring.io
+                    </a>                                    
+                                  </li>
+                              <li>
+                                      Spring in Action (3, 4 издания)
+                                      <br>Craig Walls                  
+                                  </li>
+                              <li>
+                  <a href="https://github.com/spring-petclinic/spring-framework-petclinic/tree/javaconfig" target="_blank">                    Pet Clinic Example Project. Java Config Branch
+                    </a>                                    <br><span class="text-muted" style="display:inline-block">Полноценный проект, построенный на Spring WebMVC. Ветка репозитория, основанная на Java Config.</span>
+                                  </li>
+                              <li>
+                  <a href="http://ant.apache.org/manual/dirtasks.html#patterns" target="_blank">                    Ant path Patterns
+                    </a>                                    <br><span class="text-muted" style="display:inline-block">Правила задания масок путей в стиле Ant. Используются в Spring повсеместно.</span>
+                                  </li>
+                              <li>
+                  <a href="http://spring.io/blog/2013/11/01/exception-handling-in-spring-mvc" target="_blank">                    Exception Handling in Spring MVC
+                    </a>                                    <br><span class="text-muted" style="display:inline-block">Хорошая статья с разбором разных способов обработки исключений в Spring.</span>
+                                  </li>
+                              <li>
+                  <a href="http://stackoverflow.com/questions/7561550/list-of-spring-runtime-exceptions" target="_blank">                    List of Spring Runtime Exceptions
+                    </a>                                    <br><span class="text-muted" style="display:inline-block">Список существующих исключений в Spring - не плодите лишних типов исключений.</span>
+                                  </li>
+                              <li>
+                  <a href="http://www.javabeat.net/introduction-to-spring-converters-and-formatters/" target="_blank">                    Introduction to Spring Converters and Formatters
+                    </a>                                    
+                                  </li>
+                              <li>
+                  <a href="http://stackoverflow.com/questions/12544479/spring-mvc-type-conversion-propertyeditor-or-converter" target="_blank">                    Spring MVC type conversion : PropertyEditor or Converter?
+                    </a>                                    <br><span class="text-muted" style="display:inline-block">В каких случаях что лучше использовать и в чём разница между Spring Converter и PropertyEditor</span>
+                                  </li>
+                              <li>
+                  <a href="http://docs.spring.io/spring-security/site/docs/4.0.4.RELEASE/reference/htmlsingle/" target="_blank">                    Документация Spring Security
+                    </a>                                    
+                                  </li>
+                              <li>
+                  <a href="http://websystique.com/spring-security/spring-security-4-method-security-using-preauthorize-postauthorize-secured-el/" target="_blank">                    Spring Security 4 Method security using @PreAuthorize,@PostAuthorize, @Secured, EL
+                    </a>                                    <br><span class="text-muted" style="display:inline-block">Небольшая статья с примером настройки и использования конструкций ограничения доступа Spring Security</span>
+                                  </li>
+                          </ol>
+                      <h3>
+              Работа с данными
+                          </h3>
+            <ol>
+                              <li>
+                  <a href="http://download.oracle.com/otn-pub/jcp/persistence-2_1-fr-eval-spec/JavaPersistence.pdf" target="_blank">                    JSR-338 Java Persistence 2.1 (JPA) [PDF]
+                    </a>                                    <br><span class="text-muted" style="display:inline-block">Официальная документация стандарта JPA</span>
+                                  </li>
+                              <li>
+                  <a href="http://docs.spring.io/spring-data/jpa/docs/current/reference/html/" target="_blank">                    Документация Spring Data JPA
+                    </a>                                    
+                                  </li>
+                              <li>
+                  <a href="http://hibernate.org/orm/" target="_blank">                    Hibernate ORM
+                    </a>                                    
+                                  </li>
+                              <li>
+                  <a href="https://habrahabr.ru/post/265061/" target="_blank">                    JPA и Hibernate в вопросах и ответах
+                    </a>                                    
+                                  </li>
+                              <li>
+                  <a href="https://vladmihalcea.com/2015/03/05/a-beginners-guide-to-jpa-and-hibernate-cascade-types/" target="_blank">                    A beginner’s guide to JPA and Hibernate Cascade Types
+                    </a>                                    
+                                  </li>
+                              <li>
+                  <a href="http://stackoverflow.com/questions/8931342/what-does-relationship-owner-means-in-bidirectional-relationship" target="_blank">                    What does relationship owner means in bidirectional relationship?
+                    </a>                                    <br><span class="text-muted" style="display:inline-block">Вопрос о том, что такое &quot;владелец&quot; в контексте отношений сущностей и какие есть варианты создания связей.</span>
+                                  </li>
+                          </ol>
+                      <h3>
+              Другое
+                          </h3>
+            <ol>
+                              <li>
+                  <a href="http://docs.jboss.org/hibernate/validator/4.2/reference/en-US/html/validator-usingvalidator.html#validator-defineconstraints-builtin" target="_blank">                    Обзор реализации стандарта JSR-303 от Hibernate
+                    </a>                                    
+                                  </li>
+                              <li>
+                  <a href="http://devcolibri.com/2664" target="_blank">                    Creating a custom JSR 303 constraint annotation with Spring 3
+                    </a>                                    <br><span class="text-muted" style="display:inline-block">Реализ�
+f20
+�ция своей аннотации JSR-303 с простой проверкой</span>
+                                  </li>
+                              <li>
+                  <a href="http://stackoverflow.com/questions/1972933/cross-field-validation-with-hibernate-validator-jsr-303" target="_blank">                    Cross field validation with Hibernate Validator (JSR 303)
+                    </a>                                    <br><span class="text-muted" style="display:inline-block">Реализация своей аннотации JSR-303 для проверки совпадения двух полей сущности</span>
+                                  </li>
+                              <li>
+                  <a href="https://shunchaowang.wordpress.com/2015/04/01/spring-mvc-utf-8-encoding/" target="_blank">                    Spring MVC UTF-8 Encoding
+                    </a>                                    <br><span class="text-muted" style="display:inline-block">Перечисление всех основых мест для настройки сайта на Spring WebMVC на работу с UTF-8. Помимо переичсленного не следует забывать о компоненте messageSource и теге &lt;meta charset=&quot;UTF-8&quot;&gt;.</span>
+                                  </li>
+                              <li>
+                  <a href="https://habrahabr.ru/post/79038/" target="_blank">                    WebSockets — полноценный асинхронный веб
+                    </a>                  <br>Евгений Лисицкий                  <br><span class="text-muted" style="display:inline-block">Хорошая обзорная статья 2009 года (с тех пор вышли новые стандарты WebSocket).</span>
+                                  </li>
+                              <li>
+                  <a href="http://www.w3.org/TR/websockets/" target="_blank">                    The WebSocket API
+                    </a>                                    <br><span class="text-muted" style="display:inline-block">Официальный документ от W3org с описанием интерфейса работы Websocket. Множество примеров JS-кода.</span>
+                                  </li>
+                              <li>
+                  <a href="http://www.oracle.com/technetwork/articles/java/jsr356-1937161.html" target="_blank">                    JSR 356, Java API for WebSocket
+                    </a>                                    
+                                  </li>
+                          </ol>
+                  </div>
+          </div>
+  </div>
+  <script>
+    $(function () {
+      $('a[data-toggle="tab"]').on('show.bs.tab', function (e) {
+        $.cookie('activeTab', $(e.target).attr('aria-controls'));
+      });
+      $('.standard_link_action').on('click', function (e) {
+        e.preventDefault();
+        var th = this;
+        $.getJSON($(this).attr('href'), {}, function (data) {
+          if (data.success) {
+            document.location.reload();
+          }
+          else {
+            alert(data.notices);
+          }
+        });
+      });
+    });
+  </script>
+    </div>
+    <script>
+      (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+          (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+      })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+      ga('create', 'UA-10185878-6', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+  </body>
+</html>
+0
+
