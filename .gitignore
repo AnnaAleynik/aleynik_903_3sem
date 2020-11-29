@@ -1,4 +1,10 @@
-.idea/
+*.class
 
+*.jar
+*.war
 
 target/
+
+.idea/
+out/
+*.iml
