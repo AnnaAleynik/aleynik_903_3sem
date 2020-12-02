@@ -15,8 +15,10 @@ public class Main {
             FileChannel inChannel = aFile.getChannel();
 // создаем буфер размера 48 байтов (!)
             ByteBuffer buf = ByteBuffer.allocate(48);
+
 // читаем из канала в буфер, возвращается реальное количество считанных байтов
             int bytesRead = inChannel.read(buf);
+            System.out.println(bytesRead);
             int count = 0;
             while (bytesRead != -1) {
                 // режим чтения полученных данных из буфера
@@ -40,6 +42,7 @@ public class Main {
                 inChannel.write(buf);
             }
             aFile.close();
+
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (IOException e) {

@@ -1,2 +1,1 @@
-Hello!
-Count of vowels: 2
+4   Anna      f 11-903 09/07/2001
