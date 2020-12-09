@@ -6,13 +6,10 @@ import ru.itis.aleynik.task2.student.StudentReader;
 import java.io.IOException;
 import java.net.InetSocketAddress;
 import java.net.ServerSocket;
-import java.net.Socket;
-import java.nio.ByteBuffer;
 import java.nio.channels.SelectionKey;
 import java.nio.channels.Selector;
 import java.nio.channels.ServerSocketChannel;
 import java.nio.channels.SocketChannel;
-import java.rmi.ServerException;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
@@ -30,7 +27,6 @@ public class Server {
         started = false;
         this.channels = new ArrayList<>();
     }
-
 
 
     public void start() throws IOException {
@@ -66,10 +62,11 @@ public class Server {
 
                 }
                 iter.remove();
+            }
         }
-    }}
+    }
 
-    protected void handleConnection(SocketChannel channel)  {
+    protected void handleConnection(SocketChannel channel) {
         try {
             Student student = StudentReader.read(channel);
         } catch (IOException e) {
