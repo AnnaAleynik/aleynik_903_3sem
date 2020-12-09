@@ -29,6 +29,7 @@ public class App {
     protected boolean isPressed = false;
     protected boolean isRotatePressed = false;
     protected boolean isFormPressed = false;
+    protected int angle = 0;
 
     protected JPanel form;
     private JLabel nameLabel;
@@ -121,15 +122,17 @@ public class App {
             isFormPressed = false;
 
 //            central.repaint();
-            Timer timer = new Timer(500, ev -> {
+            Timer timer = new Timer(5, ev -> {
+                if (angle + 1 > 90) {
+                    angle = 0;
+                }
+                angle += 1;
                 central.repaint();
                 central.revalidate();
             });
             if (isRotatePressed) {
                 timer.start();
-                System.out.println("dss");
             } else {
-                System.out.println("hmj");
                 timer.stop();
                 central.repaint();
                 central.revalidate();
@@ -323,18 +326,15 @@ public class App {
         @Override
         protected void paintComponent(Graphics g) {
             super.paintComponent(g);
-            int i = 1;
 
-            System.out.println("i" + i);
             if (isPressed) {
                 System.out.println("s");
                 Graphics2D g2 = (Graphics2D) g;
                 g2.setColor(Color.BLUE);
                 if (isRotatePressed) {
-                    System.out.println("r");
+                    System.out.println("r" + angle);
 //                    g2.rotate(Math.toRadians(45), this.getWidth()/2 - 20, this.getHeight()/2 - 20);
-                    g2.rotate(Math.toRadians(45), this.getWidth()/2, this.getHeight()/2);
-                    i++;
+                    g2.rotate(Math.toRadians(angle), this.getWidth()/2, this.getHeight()/2);
                 }
                 System.out.println("a");
                 g2.fillRect(this.getWidth()/2 - 20, this.getHeight()/2 - 20, 40, 40);
