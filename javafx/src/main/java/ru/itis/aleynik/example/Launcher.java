@@ -15,9 +15,14 @@ public class Launcher extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {
         String fxml = "/fxml/Main.fxml";
-        Parent root = FXMLLoader.load(getClass().getResource(fxml));
+        FXMLLoader loader = new FXMLLoader(getClass().getResource(fxml));
+        Parent root = loader.load();
         primaryStage.setScene(new Scene(root));
         primaryStage.setTitle("Example");
+
+        MainController controller = loader.getController();
+        Scene scene = primaryStage.getScene();
+        scene.setOnKeyPressed(controller.keyEventEventHandler);
 
         primaryStage.show();
     }
